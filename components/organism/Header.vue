@@ -1,6 +1,6 @@
 <template>
   <header
-    class="w-full flex flex-row justify-between items-center bg-cream p-6 box-border md:bg-primary xl:justify-center"
+    class="w-full flex flex-row justify-between items-evenly bg-cream p-6 box-border md:bg-"
   >
     <div
       class="max-w-screen-sm flex justify-start items-center box-border md:px-4 md:w-2/4"
