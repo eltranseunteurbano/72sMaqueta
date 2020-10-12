@@ -1,12 +1,12 @@
 <template>
-  <div class="w-40 first:ml-6 last:mr-6 md:first:ml-0 bookCard">
-    <div
-      class="w-40 h-80 rounded-md mb-4 relative overflow-hidden cursor-pointer"
-    >
+  <div
+    class="w-44 first:ml-6 last:mr-6 md:first:ml-0 bookCard cursor-pointer transition ease-in-out duration-300"
+  >
+    <div class="w-44 h-80 rounded-md mb-4 relative overflow-hidden">
       <div class="w-full h-full relative">
         <div class="w-full h-full bg-primary" />
         <div
-          class="bookCard-shadow hidden w-full h-full md:flex flex-col justify-end absolute z-2 top-0 transition ease-in-out duration-300 p-6 box-border"
+          class="bookCard-shadow hidden w-full h-full md:flex flex-col justify-end absolute z-2 top-0 p-6 box-border"
         >
           <p
             class="font-medium font-roboto text-xl text-cream text-center leading-none mb-2 hidden md:block z-5"
@@ -14,7 +14,7 @@
             {{ book.name }}
           </p>
           <p
-            class="font-roboto text-cream text-center leading-none mb-2 hidden md:block z-5"
+            class="truncate font-roboto text-cream text-center leading-none mb-2 hidden md:block z-5"
           >
             {{ book.author }}
           </p>
@@ -23,11 +23,11 @@
       <Progress class="absolute z-1 bottom-0" />
     </div>
     <p
-      class="font-medium font-roboto text-xl text-center leading-none mb-2 md:hidden"
+      class="truncate font-medium font-roboto text-xl text-center leading-none mb-2 md:hidden"
     >
       {{ book.name }}
     </p>
-    <p class="font-roboto text-center leading-none mb-2 md:hidden">
+    <p class="truncate font-roboto text-center leading-none mb-2 md:hidden">
       {{ book.author }}
     </p>
     <Button
@@ -57,7 +57,7 @@ export default {
   background: #0d0d0d00;
 }
 
-.bookCard-shadow:hover {
+.bookCard:hover .bookCard-shadow {
   background: #0d0d0d70;
 }
 
@@ -67,7 +67,7 @@ export default {
   transform: translateY(1rem);
 }
 
-.bookCard-shadow:hover p {
+.bookCard:hover .bookCard-shadow p {
   opacity: 1;
   transform: translateY(0);
 }

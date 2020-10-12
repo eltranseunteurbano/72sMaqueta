@@ -9,11 +9,22 @@ module.exports = {
     extend: {
       width: {
         14: '3.5rem',
+        44: '11rem',
         60: '15rem',
+        88: '22rem',
+        160: '40rem',
       },
       height: {
         14: '3.5rem',
+        68: '17rem',
+        72: '18rem',
         80: '20rem',
+      },
+      gridTemplateColumns: {
+        specialBookdCard: 'repeat(2, minmax(0, auto))',
+      },
+      inset: {
+        inherit: 'inherit',
       },
     },
     colors: {

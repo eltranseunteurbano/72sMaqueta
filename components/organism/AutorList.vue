@@ -1,5 +1,5 @@
 <template>
-  <aside class="w-full md:px-6 box-border md:w-60">
+  <aside class="w-full md:sticky md:top-0 md:px-6 box-border md:w-60">
     <article
       class="flex flex-no-wrap justify-between items-center mb-4 px-6 box-border md:px-0"
     >
