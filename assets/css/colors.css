@@ -1,0 +1,15 @@
+* {
+  --blue: #4B6099;
+  --blue-dark: #273762;
+  --orange: #F5615F;
+  --orange-dark: #C93E3C;
+  --black: #0D0D0D;
+  --white: #ffffff;
+  --cream: #F6F0EB;
+  --gray-ligher: #97887C20;
+  --gray: #97887C;
+  --gray-dark: #C4C4C4;
+
+  --color-primary: var(--blue);
+  --color-secondary: var(--orange);
+}

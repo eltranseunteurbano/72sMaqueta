@@ -25,7 +25,7 @@ import BookList from '../components/organism/BookList'
 export default {
   components: { Header, HeaderSpecialBooks, AutorList, BookList },
 }
-import('../assets/css/tailwind.css')
+import('../assets/css/styles.css')
 </script>
 
 <style>
